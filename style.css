@@ -81,8 +81,8 @@ fieldset {
     /* border: 2px solid seagreen; */
 }
 
-.fieldset-1, .fieldset-2, .fieldset-3, .fieldset-4 {
-    border-bottom : 2px solid #3b3b4f;
+fieldset:not(:nth-of-type(5)) {
+    border-bottom : 2px solid var(--border);
     padding-bottom: 50px;
     margin-bottom: 70px;
 }
